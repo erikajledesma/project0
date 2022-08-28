@@ -19,7 +19,7 @@ public class printReverse {
 			if (input.equals("done") || input.equals("Done") || input.equals("d")) {
 				break;
 			}
-			for(int i = (input.length() - 1); i >= 0; i--) { 
+			for(int i = (input.length() - 1); i >= 0; i--) { //reverses string
 				System.out.print(input.charAt(i));
 			}
 			System.out.println("");
