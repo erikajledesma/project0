@@ -13,7 +13,7 @@ public class printReverse {
 		String input;
 		
 		while (true) {
-			System.out.println("Enter string here: ");
+			System.out.println("Enter any string below: ");
 			input = scnr.nextLine();
 			
 			if (input.equals("done") || input.equals("Done") || input.equals("d")) {
